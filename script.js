@@ -3,7 +3,7 @@ const feet = document.querySelector('#feet');
 const inches = document.querySelector('#inches');
 const result = document.querySelector('#result');
 
-form.addEventListener('click', (e) => {
+form.addEventListener('submit', (e) => {
   e.preventDefault();
   let feetValue = +feet.value;
   let inchesValue = +inches.value;
